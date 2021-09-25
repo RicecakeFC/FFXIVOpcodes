@@ -15,6 +15,7 @@ namespace FFXIVOpcodes.CN
     enum ServerZoneIpcType : ushort
     {        
         // Server Zone
+        ItemInfo = 0x0322,
         PrepareZoning = 0x0318,
         PlayerStats = 0x01E5,
         
