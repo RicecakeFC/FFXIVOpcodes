@@ -401,6 +401,10 @@
           "opcode": 878
         },
         {
+          "name": "ItemInfo",
+          "opcode": 802
+        },
+        {
           "name": "PlayerSetup",
           "opcode": 447
         },
