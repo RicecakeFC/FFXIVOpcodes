@@ -25,7 +25,7 @@ namespace FFXIVOpcodes.CN
         EventPlay4 = 0x02D2,
         EventStart = 0x013A,
         InitZone = 0x0343,
-        PlayerSetup = 0x01E2
+        PlayerSetup = 0x01E2,
         PlayerStats = 0x03A0,
         PrepareZoning = 0x01BD,
         SomeDirectorUnk4 = 0x03C5,
