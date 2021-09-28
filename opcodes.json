@@ -361,82 +361,78 @@
     "lists": {
       "ServerZoneIpcType": [
         {
-          "name": "ActorControl",
-          "opcode": 139
+          "name": "ActorCast",
+          "opcode": 239
         },
         {
           "name": "ActorControlSelf",
-          "opcode": 400
+          "opcode": 852
         },
         {
-          "name": "ActorCast",
-          "opcode": 486
+          "name": "ActorControl",
+          "opcode": 472
         },
         {
           "name": "Effect",
-          "opcode": 133
-        },
-        {
-          "name": "EventPlay4",
-          "opcode": 241
-        },
-        {
-          "name": "EventFinish",
-          "opcode": 263
-        },
-        {
-          "name": "EventPlay",
-          "opcode": 333
+          "opcode": 110
         },
         {
           "name": "EventStart",
-          "opcode": 705
+          "opcode": 314
+        },
+        {
+          "name": "EventFinish",
+          "opcode": 643
+        },
+        {
+          "name": "EventPlay4",
+          "opcode": 722
+        },
+        {
+          "name": "EventPlay",
+          "opcode": 781
         },
         {
           "name": "EffectResult",
-          "opcode": 725
+          "opcode": 789
         },
         {
           "name": "InitZone",
-          "opcode": 878
-        },
-        {
-          "name": "ItemInfo",
-          "opcode": 802
-        },
-        {
-          "name": "PlayerSetup",
-          "opcode": 447
-        },
-        {
-          "name": "PlayerStats",
-          "opcode": 485
+          "opcode": 835
         },
         {
           "name": "PrepareZoning",
-          "opcode": 792
+          "opcode": 445
+        },
+        {
+          "name": "PlayerSetup",
+          "opcode": 482
+        },
+        {
+          "name": "PlayerStats",
+          "opcode": 928
         },
         {
           "name": "SomeDirectorUnk4",
-          "opcode": 190
+          "opcode": 965
         },
         {
           "name": "StatusEffectList",
-          "opcode": 647
+          "opcode": 839
         },
         {
           "name": "UpdateClassInfo",
-          "opcode": 111
+          "opcode": 682
         },
         {
           "name": "WeatherChange",
-          "opcode": 980
+          "opcode": 280
         }
       ],
       "ClientZoneIpcType": [
         {
           "name": "ClientTrigger",
-          "opcode": 961
+          "opcode": 624
         }
       ],
       "ServerLobbyIpcType": [],
