@@ -15,28 +15,29 @@ namespace FFXIVOpcodes.CN
     enum ServerZoneIpcType : ushort
     {        
         // Server Zone
-        ActorCast = 0x00EF,
-        ActorControl = 0x01D8,
-        ActorControlSelf = 0x0354,
-        Effect = 0x006E,
-        EffectResult = 0x0315,
-        EventFinish = 0x0283,
-        EventPlay = 0x030D,
-        EventPlay4 = 0x02D2,
-        EventStart = 0x013A,
-        InitZone = 0x0343,
-        PlayerSetup = 0x01E2,
-        PlayerStats = 0x03A0,
-        PrepareZoning = 0x01BD,
-        SomeDirectorUnk4 = 0x03C5,
-        StatusEffectList = 0x0347,
-        UpdateClassInfo = 0x02AA,
-        WeatherChange = 0x0118,
+        ActorCast = 0x0116,
+        ActorControl = 0x00CA,
+        ActorControlSelf = 0x0245,
+        Effect = 0x032E,
+        EffectResult = 0x02E8,
+        EventFinish = 0x01C2,
+        EventPlay = 0x0276,
+        EventPlay4 = 0x028C,
+        EventStart = 0x00EC,
+        InitZone = 0x01D6,
+        PlayerSetup = 0x0194,
+        PlayerStats = 0x017F,
+        PrepareZoning = 0x02D8,
+        SomeDirectorUnk4 = 0x0202,
+        StatusEffectList = 0x015E,
+        UpdateClassInfo = 0x0192,
+        WeatherChange = 0x027A,
     };
 
     enum ClientZoneIpcType : ushort
     {
-        ClientTrigger = 0x0270,
+        // Client Zone
+        ClientTrigger = 0x03B9,
     };
 
     enum ServerChatIpcType : ushort
