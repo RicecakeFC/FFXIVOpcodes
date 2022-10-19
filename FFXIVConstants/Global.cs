@@ -4,8 +4,8 @@ namespace FFXIVConstants
 {
     public static class Global
     {
-        public const string Version = "6.08";
-        
+        public const string Version = "6.25";
+
         public static Dictionary<string, object> Constants = new Dictionary<string, object>
         {
             { "InventoryOperationBaseValue", 0x00EB },
