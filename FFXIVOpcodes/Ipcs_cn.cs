@@ -85,6 +85,10 @@ namespace FFXIVOpcodes.CN
         UpdateHpMpTp = 0x023C,
         UpdateInventorySlot = 0x0313,
         UpdateSearchInfo = 0x00B9,
+        
+        // ffmomola
+        WeatherChange = 0x0322,
+        SpearFishingItemRecord = 0x02B1,
     };
 
     public enum ClientZoneIpcType : ushort
